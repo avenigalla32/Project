@@ -42,12 +42,25 @@ body {
 }
 
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: maroon;
 }
 
 .topnav a.active {
-  background-color: #4CAF50;
+  background-color: maroon;
   color: white;
 }
 /* </style> */
+ul{
+  list-style: none;
+}
+li{
+  display: inline;
+}
+#home{
+  align-content: left;
+  overflow: hidden;
+  margin-top: -15px;
+  margin-bottom: -50px;
+  width: 80px;
+  height: 80px;
+}
