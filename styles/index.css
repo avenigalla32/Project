@@ -64,3 +64,10 @@ li{
   width: 80px;
   height: 80px;
 }
+.logo{
+  z-index: 999;
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  fill: white;
+}
