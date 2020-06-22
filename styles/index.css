@@ -1,73 +1,81 @@
-table{
-    border-collapse: collapse;
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    text-align: bottom;
-}
-tr, td{
-    padding: 3px;
-    vertical-align: top;
-}
-th{
-    background-color: seagreen;
-}
-img{
-    width: 75%;
-}
-body{
-    background-color: burlywood;
-}
-
-/* <style> */
 body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(https://c.static-nike.com/a/images/gq4zw6tlx3hdo4461cmf/air-jordan-3.png);
 }
-
-.topnav {
-  overflow: hidden;
-  background-color: #333;
-}
-
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  background-color: maroon;
-}
-
-.topnav a.active {
-  background-color: maroon;
-  color: white;
-}
-/* </style> */
-ul{
+ul {
   list-style: none;
 }
-li{
+li {
   display: inline;
 }
-#home{
-  align-content: left;
-  overflow: hidden;
-  margin-top: -15px;
-  margin-bottom: -50px;
-  width: 80px;
-  height: 80px;
+.home {
+  margin-left: -500px;
+  position: fixed;
 }
-.logo{
-  z-index: 999;
+.navbar {
+  position: fixed;
+  border-top: 1px solid white;
+  border-bottom: 2px solid white;
+  padding: 0 500px;
+  background-image: url(https://c.static-nike.com/a/images/gq4zw6tlx3hdo4461cmf/air-jordan-3.png);
+  width: 100%;
+  z-index: 5;
+}
+.nav-options {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  padding: 3px;
+}
+.nav-options a:hover {
+  background-color: maroon;
+  color: white;
+  border-radius: 50%;
+}
+.navbar a {
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.jordan {
+  margin-top: 60px;
+  width: 100%;
+}
+.jordan-text {
   position: absolute;
-  top: 50px;
-  left: 50%;
-  fill: white;
+  font-size: xx-large;
+  color: white;
+  margin-top: 175px;
+  margin-left: 600px;
+}
+h1 {
+  color: white;
+  text-align: center;
+}
+div.gallery {
+  margin: 5px;
+  float: left;
+  width: 477px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
 }
