@@ -1,6 +1,7 @@
 body {
   background-image: url(https://c.static-nike.com/a/images/gq4zw6tlx3hdo4461cmf/air-jordan-3.png);
 }
+/* nav bar */
 ul {
   list-style: none;
 }
@@ -43,6 +44,7 @@ a {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+/* big picture and quote */
 .jordan {
   margin-top: 60px;
   width: 100%;
@@ -54,10 +56,12 @@ a {
   margin-top: 175px;
   margin-left: 600px;
 }
+/* header */
 h1 {
   color: white;
   text-align: center;
 }
+/* shoe gallery */
 div.gallery {
   margin: 5px;
   float: left;

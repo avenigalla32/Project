@@ -1,53 +1,247 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Air Jordan Retro 4s</title>
-    <link rel="stylesheet" type="text/css" href="styles/shoes-pages.css">
+    <link rel="stylesheet" type="text/css" href="styles/shoes-pages.css" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-169841530-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-169841530-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  gtag('config', 'UA-169841530-1');
-</script>
+      gtag("config", "UA-169841530-1");
+    </script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="home">
+        <a href="redo.html">
+          <img src="images/white.png" alt="Home" height="70" />
+        </a>
+      </div>
+      <div class="nav-options">
+        <ul>
+          <li>
+            <a href="retro1.html">Retro 1</a>
+          </li>
+          <li>
+            <a href="retro4.html">Retro 4</a>
+          </li>
+          <li>
+            <a href="retro11.html">Retro 11</a>
+          </li>
+          <li>
+            <a href="retro12.html">Retro 12</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <slideshow>
+      <div class="w3-content w3-display-container">
+        <img
+          class="mySlides"
+          src="https://c.static-nike.com/a/images/h8liq1rpjvypiadpuznk/air-jordan-iv-og-black-cement-grey.png"
+        />
+        <img
+          class="mySlides"
+          src="https://static.nike.com/a/images/eea40c56-2171-4c59-b73e-516e6f82a569/white-fire-red-black.png"
+        />
+        <img
+          class="mySlides"
+          src="https://c.static-nike.com/a/images/iqj41almk4el43ymnxjy/air-jordan-iv-og-off-white-military-blue-military-blue.png"
+        />
 
-</head>
-<body>
-  
-  <ul>
-    <li><a class="active" href="index.html">Home</a></li>
-    <li><a href="retro1.html">Retro 1s</a></li>
-    <li><a href="retro4.html">Retro 4s</a></li>
-    <li><a href="retro11.html">Retro 11s</a></li>
-    <li><a href="retro12.html">Retro 12s</a></li>
-  </ul>
+        <button
+          class="w3-button w3-black w3-display-left"
+          onclick="plusDivs(-1)"
+        >
+          &#10094;
+        </button>
+        <button
+          class="w3-button w3-black w3-display-right"
+          onclick="plusDivs(1)"
+        >
+          &#10095;
+        </button>
+      </div>
 
-    <a href="index.html"><img src="images/black.png" alt="Home" height="50" /></a>
-    <h1>Retro 4s</h1>
-    <table>
-      <tr>
-        <td><img src="images4/bred4.png" alt="Air Jordan Retro 4 Bred" /></td>
-        <td>
-          <img src="images4/firered4.png" alt="Air Jordan Retro 4 Fire Red" class="shoe"/>
-        </td>
-        <td>
-          <img src="images4/eminem4.png" alt="Air Jordan Retro 4 Eminem" class="shoe"/>
-        </td>
-      </tr>
-      <tr>
-          <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur distinctio, ut voluptatibus reiciendis modi deleniti, eius doloremque perspiciatis adipisci assumenda mollitia nulla. Aspernatur doloribus commodi magnam dignissimos explicabo veniam exercitationem voluptatibus sint quos. Aliquid exercitationem maxime vero, quidem itaque, eaque nobis laborum voluptatem animi labore ab numquam necessitatibus nulla dolorem.</td>
-          <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis similique a, officia iure harum obcaecati at. Quidem excepturi nostrum sapiente minus, dignissimos beatae totam temporibus mollitia dolorum sequi doloribus quos autem rerum laborum, reiciendis ullam dolor. Repellat quod a dicta. Atque optio eum ab animi laboriosam quod quisquam, natus maiores?</td>
-          <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste amet quam officia, et nemo harum adipisci aut ipsam explicabo expedita. Nisi repellat in vero quaerat, totam illo? Rerum modi necessitatibus dicta cumque, veritatis iure voluptas debitis incidunt commodi, eos nostrum praesentium eveniet aspernatur, neque expedita quaerat deleniti quis nemo quidem!</td>
-      </tr>
-      <tr>
-          <td colspan="3">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/zveLtpgQ49Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+          showDivs((slideIndex += n));
+        }
+
+        function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          if (n > x.length) {
+            slideIndex = 1;
+          }
+          if (n < 1) {
+            slideIndex = x.length;
+          }
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+          }
+          x[slideIndex - 1].style.display = "block";
+        }
+      </script>
+    </slideshow>
+    <shoe-gallery>
+      <h1>Favorite Colorways</h1>
+      <table>
+        <tr>
+          <td>
+            <div class="gallery">
+              <img
+                src="https://c.static-nike.com/a/images/h8liq1rpjvypiadpuznk/air-jordan-iv-og-black-cement-grey.png"
+                alt="Retro 1s"
+                width="600"
+                height="400"
+              />
+              <div class="desc">
+                <b>Model: </b>Retro 1s<br /><b>Release Year: </b>1985
+              </div>
+            </div>
           </td>
-      </tr>
-    </table>
-</body>
+          <td>
+            <div class="gallery">
+              <img
+                src="https://static.nike.com/a/images/eea40c56-2171-4c59-b73e-516e6f82a569/white-fire-red-black.png"
+                alt="Retro 2s"
+                width="600"
+                height="400"
+              />
+              <div class="desc">
+                <b>Model: </b>Retro 2s<br /><b>Release Year: </b>1986
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="gallery">
+              <img
+                src="https://c.static-nike.com/a/images/iqj41almk4el43ymnxjy/air-jordan-iv-og-off-white-military-blue-military-blue.png"
+                alt="Retro 3s"
+                width="600"
+                height="400"
+              />
+              <div class="desc">
+                <b>Model: </b>Retro 3s<br /><b>Release Year: </b>1988
+              </div>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </shoe-gallery>
+    <quote>
+      <div id="quote1"></div>
+    </quote>
+    <history id="history">
+      <h1>History</h1>
+      <p>
+        Modern sneaker culture had its roots in the air; that is, the original
+        Air Jordan that released in 1985. Nike, and subsequently the Jordan
+        Brand, has honored this iconic silhouette numerous times since with
+        releases of the Retro 1.
+      </p>
+
+      <p>
+        The Chicago Bulls used their third overall draft pick on Jordan, a 1982
+        NCAA champion who would go on to win Olympic gold later in the summer of
+        1984. Jordan signed a five-year endorsement deal with Nike, reportedly
+        worth $2.5 million (plus royalties), an enormous outlay for an athlete
+        who hadn't yet proven himself on the professional level.
+      </p>
+
+      <p>
+        The NBA banned the original Air Jordan for not meeting the league's
+        stringent policy on uniforms and colors. Jordan wore them anyway and
+        faced a $5,000-per-game fine as a result. Recognizing a unique marketing
+        opportunity when it presented itself, Nike happily paid the fine. And MJ
+        rocked them all the way to his Rookie of the Year honor.
+      </p>
+
+      <p>
+        This Air Jordan was the only one in the series to feature the familiar
+        Nike Swoosh logo. And predating the Jumpman logo, the OG shoe featured
+        the Wings logo - a basketball with wings stretching from both sides and
+        "Air Jordan" printed above the ball. Nike filed the Wings logo as a
+        trademark on May 7, 1985.
+      </p>
+
+      <p>
+        Leather overlays on the upper offered durability and easy color
+        blocking, and a perforated leather toe box lent ventilation.
+      </p>
+    </history>
+    <quote>
+      <div id="quote2"></div>
+    </quote>
+    <videos>
+      <h1>Historic Moments</h1>
+      <table>
+        <tr>
+          <td>
+            <div class="gallery">
+              <iframe
+                width="520"
+                height="315"
+                src="https://www.youtube.com/embed/zveLtpgQ49Q"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              >
+              </iframe>
+              <div class="desc">
+                <b>Model: </b>Retro 1s<br /><b>Release Year: </b>1985
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="gallery">
+              <iframe
+                width="520"
+                height="315"
+                src="https://www.youtube.com/embed/zveLtpgQ49Q"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              >
+              </iframe>
+              <div class="desc">
+                <b>Model: </b>Retro 2s<br /><b>Release Year: </b>1986
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="gallery">
+              <iframe
+                width="520"
+                height="315"
+                src="https://www.youtube.com/embed/zveLtpgQ49Q"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              >
+              </iframe>
+              <div class="desc">
+                <b>Model: </b>Retro 3s<br /><b>Release Year: </b>1988
+              </div>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </videos>
+    <footer></footer>
+  </body>
 </html>
