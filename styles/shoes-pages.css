@@ -14,10 +14,10 @@ li {
 }
 .navbar {
   position: fixed;
-  border-top: 1px solid white;
+  border-top: 2px solid white;
   border-bottom: 2px solid white;
   padding: 0 500px;
-  background-image: url(https://c.static-nike.com/a/images/gq4zw6tlx3hdo4461cmf/air-jordan-3.png);
+  background-image: url(https://c.static-nike.com/a/images/i7uaonkqzhahrozhpake/air-jordan-20.png);
   width: 100%;
   z-index: 5;
 }
@@ -114,8 +114,8 @@ a {
 
 /* shoe gallery */
 table{
-  border-top: 3px solid white;
-  border-bottom: 3px solid white;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
 }
 div.gallery {
   margin: 5px;
@@ -147,4 +147,18 @@ p{
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.125rem;
+}
+/* footer */
+.footer{
+  color: white;
+  background-image: url(https://c.static-nike.com/a/images/i7uaonkqzhahrozhpake/air-jordan-20.png);
+  padding: 15px 15px 15px 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  border-bottom: 2px solid white;
+}
+.footer a:hover {
+  background-color: maroon;
+  color: white;
+  border-radius: 50%;
 }
