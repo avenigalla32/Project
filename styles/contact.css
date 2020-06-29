@@ -1,0 +1,90 @@
+body {
+    background-image: url(https://c.static-nike.com/a/images/gq4zw6tlx3hdo4461cmf/air-jordan-3.png);
+  }
+  .content{
+    margin-left: 300px;
+    margin-right: 300px;
+  }
+  h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    opacity: 0.8;
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 75px;
+  }
+  h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: x-large;
+  }
+  a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  /* footer */
+  .footer {
+    color: white;
+    background-image: url(https://c.static-nike.com/a/images/i7uaonkqzhahrozhpake/air-jordan-20.png);
+    padding: 15px 15px 15px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+  }
+  .footer a:hover {
+    background-color: maroon;
+    color: white;
+    border-radius: 50%;
+  }
+  /* nav bar */
+  ul {
+    list-style: none;
+  }
+  li {
+    display: inline;
+  }
+  .home {
+    margin-left: -500px;
+    position: fixed;
+  }
+  .navbar {
+    position: fixed;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    padding: 0 500px;
+    background-image: url(https://c.static-nike.com/a/images/i7uaonkqzhahrozhpake/air-jordan-20.png);
+    width: 100%;
+    z-index: 5;
+  }
+  .nav-options {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    padding: 3px;
+  }
+  .nav-options a:hover {
+    background-color: maroon;
+    color: white;
+    border-radius: 50%;
+  }
+  .navbar a {
+    color: white;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  /* form */
+  form{
+      background-image: url(https://c.static-nike.com/a/images/gmp2gru4y1xlw279fs3x/air-jordan-7.png);
+      font-family: Arial, Helvetica, sans-serif;
+      padding-left: 40px;
+      padding-top: 40px;
+      padding-bottom: 40px;
+  }
