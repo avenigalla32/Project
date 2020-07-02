@@ -38,8 +38,8 @@
             <label for="username">Last Name:</label>
             <input
             type="text"
-            id="lastname"
-            name="lastname"
+            id="lastName"
+            name="lastName"
             maxlength="100"
             placeholder="Last Name"
             />
@@ -48,13 +48,24 @@
             <label for="username">First Name:</label>
             <input
             type="text"
-            id="firstname"
-            name="firstname"
+            id="firstName"
+            name="firstName"
             maxlength="100"
             placeholder="First Name"
             />
             <br>
             <br>
+            <label for="username">Age:</label>
+            <input
+            type="text"
+            id="age"
+            name="Age"
+            maxlength="100"
+            placeholder="Age"
+            />
+            <br>
+            <br>
+            
             <label for="username">Email:</label>
             <input
             type="text"
@@ -148,7 +159,7 @@
         </div>
         <br>
         <div>
-            <button type="submit" name="submit-button">Submit
+            <button type="button" name="submit-button" id="submit">Submit
             </button>
             <button type="submit" name="clear-button"> Clear
             </button>
@@ -170,5 +181,21 @@
       </nav>
     </div>
     </footer>
+    <script>
+      function check(){
+        const myForm = document.querySelector("form");
+        const age = myForm['age'].value;
+        const last = myForm['lastName'].value;
+        const first = myForm['firstName'].value;
+
+        if (last.length===0 || first.length===0){
+          alert("Please enter first and last name!")
+        }
+        else if (isNaN(age)){
+          alert("Please enter a valid age!")
+        }
+      }
+      document.getElementById("submit").onclick = check
+    </script>
   </body>
 </html>
