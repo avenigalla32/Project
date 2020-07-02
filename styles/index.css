@@ -61,7 +61,7 @@ h1 {
   color: white;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-  text-decoration: underline white;
+  text-decoration: underline;
 }
 /* shoe gallery */
 div.gallery {
@@ -71,7 +71,7 @@ div.gallery {
 }
 
 div.gallery:hover {
-  border: 1px solid #777;
+  opacity: 0.9;
 }
 
 div.gallery img {
@@ -99,4 +99,8 @@ div.desc {
   background-color: maroon;
   color: white;
   border-radius: 50%;
+}
+/*java*/
+#focus{
+  margin-left: 175px;
 }

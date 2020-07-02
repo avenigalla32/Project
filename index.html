@@ -49,15 +49,18 @@
       </div>
     </nav>
     <quote>
-      <div class="jordan-text">
+      <div class="jordan-text" id="text">
         "I've failed over and over and over again in
         <br />
         my life and that is why I succeed" -Michael Jordan
       </div>
       <div>
-        <img src="images/wide.jpg" alt="Jordan" class="jordan" />
+        <img src="images/wide.jpg" alt="Jordan" class="jordan" id="jordanPic" />
       </div>
     </quote>
+    <modal id="pop">
+      <img src="" id="focus" />
+    </modal>
     <h1>
       Jordan Shoe Gallery
     </h1>
@@ -65,14 +68,13 @@
       <tr>
         <td>
           <div class="gallery">
-            <a href="retro1.html">
-              <img
-                src="https://c.static-nike.com/a/images/cctkgherduwfbwrjiwwt/air-jordan-i-og-black-red.png"
-                alt="Retro 1s"
-                width="600"
-                height="400"
-              />
-            </a>
+            <img
+              src="https://c.static-nike.com/a/images/cctkgherduwfbwrjiwwt/air-jordan-i-og-black-red.png"
+              alt="Retro 1s"
+              width="600"
+              height="400"
+              onclick="big(this)"
+            />
             <div class="desc">
               <b>Model: </b>Retro 1s<br /><b>Release Year: </b>1985
             </div>
@@ -80,14 +82,13 @@
         </td>
         <td>
           <div class="gallery">
-            <a href="">
-              <img
-                src="https://c.static-nike.com/a/images/gn8vtmg1ut0xv4ulh8ln/air-jordan-ii-1994-retro-white-red-black-.png"
-                alt="Retro 2s"
-                width="600"
-                height="400"
-              />
-            </a>
+            <img
+              src="https://c.static-nike.com/a/images/gn8vtmg1ut0xv4ulh8ln/air-jordan-ii-1994-retro-white-red-black-.png"
+              alt="Retro 2s"
+              width="600"
+              height="400"
+              onclick="big(this)"
+            />
             <div class="desc">
               <b>Model: </b>Retro 2s<br /><b>Release Year: </b>1986
             </div>
@@ -95,14 +96,13 @@
         </td>
         <td>
           <div class="gallery">
-            <a href="">
-              <img
-                src="https://c.static-nike.com/a/images/d4ftjp3i35g5jps27vuk/air-jordan-iii-1994-retro-og-white-cement-grey-.png"
-                alt="Retro 3s"
-                width="600"
-                height="400"
-              />
-            </a>
+            <img
+              src="https://c.static-nike.com/a/images/d4ftjp3i35g5jps27vuk/air-jordan-iii-1994-retro-og-white-cement-grey-.png"
+              alt="Retro 3s"
+              width="600"
+              height="400"
+              onclick="big(this)"
+            />
             <div class="desc">
               <b>Model: </b>Retro 3s<br /><b>Release Year: </b>1988
             </div>
@@ -112,14 +112,14 @@
       <tr>
         <td>
           <div class="gallery">
-            <a href="retro4.html">
-              <img
-                src="https://c.static-nike.com/a/images/h8liq1rpjvypiadpuznk/air-jordan-iv-og-black-cement-grey.png"
-                alt="Retro 4s"
-                width="600"
-                height="400"
-              />
-            </a>
+            <img
+              src="https://c.static-nike.com/a/images/h8liq1rpjvypiadpuznk/air-jordan-iv-og-black-cement-grey.png"
+              alt="Retro 4s"
+              width="600"
+              height="400"
+              onclick="big(this)"
+            />
+
             <div class="desc">
               <b>Model: </b>Retro 4s<br /><b>Release Year: </b>1989
             </div>
@@ -127,14 +127,14 @@
         </td>
         <td>
           <div class="gallery">
-            <a href="">
-              <img
-                src="https://c.static-nike.com/a/images/ynexy02jdibrjeze4mlb/air-jordan-v-og-black-black-metallic-silver-metallic.png"
-                alt="Retro 5s"
-                width="600"
-                height="400"
-              />
-            </a>
+            <img
+              src="https://c.static-nike.com/a/images/ynexy02jdibrjeze4mlb/air-jordan-v-og-black-black-metallic-silver-metallic.png"
+              alt="Retro 5s"
+              width="600"
+              height="400"
+              onclick="big(this)"
+            />
+
             <div class="desc">
               <b>Model: </b>Retro 5s<br /><b>Release Year: </b>1990
             </div>
@@ -142,14 +142,14 @@
         </td>
         <td>
           <div class="gallery">
-            <a href="">
-              <img
-                src="https://c.static-nike.com/a/images/yegobaxqveixez30fcr9/air-jordan-vi-og-black-black-infra-red-.png"
-                alt="Retro 6s"
-                width="600"
-                height="400"
-              />
-            </a>
+            <img
+              src="https://c.static-nike.com/a/images/yegobaxqveixez30fcr9/air-jordan-vi-og-black-black-infra-red-.png"
+              alt="Retro 6s"
+              width="600"
+              height="400"
+              onclick="big(this)"
+            />
+
             <div class="desc">
               <b>Model: </b>Retro 6s<br /><b>Release Year: </b>1991
             </div>
@@ -159,14 +159,14 @@
       <tr>
         <td>
           <div class="gallery">
-            <a href="">
-              <img
-                src="https://c.static-nike.com/a/images/n6oo67xzjiuo4vmazl4t/air-jordan-vii-og-white-light-silver-true-red-hare.png"
-                alt="Retro 7s"
-                width="600"
-                height="400"
-              />
-            </a>
+            <img
+              src="https://c.static-nike.com/a/images/n6oo67xzjiuo4vmazl4t/air-jordan-vii-og-white-light-silver-true-red-hare.png"
+              alt="Retro 7s"
+              width="600"
+              height="400"
+              onclick="big(this)"
+            />
+
             <div class="desc">
               <b>Model: </b>Retro 7s<br /><b>Release Year: </b>1992
             </div>
@@ -174,14 +174,14 @@
         </td>
         <td>
           <div class="gallery">
-            <a href="">
-              <img
-                src="https://c.static-nike.com/a/images/lerx0prmjrr4jokboq7k/air-jordan-viii-og-black-bright-concord-aqua-tone-aqua.png"
-                alt="Retro 8s"
-                width="600"
-                height="400"
-              />
-            </a>
+            <img
+              src="https://c.static-nike.com/a/images/lerx0prmjrr4jokboq7k/air-jordan-viii-og-black-bright-concord-aqua-tone-aqua.png"
+              alt="Retro 8s"
+              width="600"
+              height="400"
+              onclick="big(this)"
+            />
+
             <div class="desc">
               <b>Model: </b>Retro 8s<br /><b>Release Year: </b>1993
             </div>
@@ -189,14 +189,14 @@
         </td>
         <td>
           <div class="gallery">
-            <a href="">
-              <img
-                src="https://c.static-nike.com/a/images/luqccyp8swnnot5zczpl/white-black-true-red.png"
-                alt="Retro 9s"
-                width="600"
-                height="400"
-              />
-            </a>
+            <img
+              src="https://c.static-nike.com/a/images/luqccyp8swnnot5zczpl/white-black-true-red.png"
+              alt="Retro 9s"
+              width="600"
+              height="400"
+              onclick="big(this)"
+            />
+
             <div class="desc">
               <b>Model: </b>Retro 9s<br /><b>Release Year: </b>1993
             </div>
@@ -206,14 +206,14 @@
       <tr>
         <td>
           <div class="gallery">
-            <a href="">
-              <img
-                src="https://c.static-nike.com/a/images/hbgxyihefmkqodcomewo/air-jordan-x-og-white-black-light-steel-grey-steel-grey.png"
-                alt="Retro 10s"
-                width="600"
-                height="400"
-              />
-            </a>
+            <img
+              src="https://c.static-nike.com/a/images/hbgxyihefmkqodcomewo/air-jordan-x-og-white-black-light-steel-grey-steel-grey.png"
+              alt="Retro 10s"
+              width="600"
+              height="400"
+              onclick="big(this)"
+            />
+
             <div class="desc">
               <b>Model: </b>Retro 10s<br /><b>Release Year: </b>1994
             </div>
@@ -221,14 +221,14 @@
         </td>
         <td>
           <div class="gallery">
-            <a href="retro11.html">
-              <img
-                src="https://c.static-nike.com/a/images/dczgxzuofuhij1cvlpkz/air-jordan-xi-og-black-true-red-white.png"
-                alt="Retro 11s"
-                width="600"
-                height="400"
-              />
-            </a>
+            <img
+              src="https://c.static-nike.com/a/images/dczgxzuofuhij1cvlpkz/air-jordan-xi-og-black-true-red-white.png"
+              alt="Retro 11s"
+              width="600"
+              height="400"
+              onclick="big(this)"
+            />
+
             <div class="desc">
               <b>Model: </b>Retro 11s<br /><b>Release Year: </b>1995
             </div>
@@ -236,14 +236,14 @@
         </td>
         <td>
           <div class="gallery">
-            <a href="retro12.html">
-              <img
-                src="https://c.static-nike.com/a/images/obhnbd3flzqczttag4sk/air-jordan-xii-og-white-black-taxi-taxi.png"
-                alt="Retro 12s"
-                width="600"
-                height="400"
-              />
-            </a>
+            <img
+              src="https://c.static-nike.com/a/images/obhnbd3flzqczttag4sk/air-jordan-xii-og-white-black-taxi-taxi.png"
+              alt="Retro 12s"
+              width="600"
+              height="400"
+              onclick="big(this)"
+            />
+
             <div class="desc">
               <b>Model: </b>Retro 12s<br /><b>Release Year: </b>1996
             </div>
@@ -253,14 +253,14 @@
       <tr>
         <td>
           <div class="gallery">
-            <a href="">
-              <img
-                src="https://c.static-nike.com/a/images/bvuetgf21atpgp6stpcb/air-jordan-xiii-og-black-true-red.png"
-                alt="Retro 13s"
-                width="600"
-                height="400"
-              />
-            </a>
+            <img
+              src="https://c.static-nike.com/a/images/bvuetgf21atpgp6stpcb/air-jordan-xiii-og-black-true-red.png"
+              alt="Retro 13s"
+              width="600"
+              height="400"
+              onclick="big(this)"
+            />
+
             <div class="desc">
               <b>Model: </b>Retro 13s<br /><b>Release Year: </b>1997
             </div>
@@ -268,14 +268,14 @@
         </td>
         <td>
           <div class="gallery">
-            <a href="">
-              <img
-                src="https://c.static-nike.com/a/images/k3he4oxm3c99azstdwkr/challenge-red-black-vibrant-yellow.png"
-                alt="Retro 14s"
-                width="600"
-                height="400"
-              />
-            </a>
+            <img
+              src="https://c.static-nike.com/a/images/k3he4oxm3c99azstdwkr/challenge-red-black-vibrant-yellow.png"
+              alt="Retro 14s"
+              width="600"
+              height="400"
+              onclick="big(this)"
+            />
+
             <div class="desc">
               <b>Model: </b>Retro 14s<br /><b>Release Year: </b>1998
             </div>
@@ -283,14 +283,14 @@
         </td>
         <td>
           <div class="gallery">
-            <a href="">
-              <img
-                src="https://c.static-nike.com/a/images/h6zlycu3xaaxxpybluzj/air-jordan-xv-og-flint-grey-white-flint-grey.png"
-                alt="Retro 15s"
-                width="600"
-                height="400"
-              />
-            </a>
+            <img
+              src="https://c.static-nike.com/a/images/h6zlycu3xaaxxpybluzj/air-jordan-xv-og-flint-grey-white-flint-grey.png"
+              alt="Retro 15s"
+              width="600"
+              height="400"
+              onclick="big(this)"
+            />
+
             <div class="desc">
               <b>Model: </b>Retro 15s<br /><b>Release Year: </b>1999
             </div>
@@ -300,14 +300,14 @@
       <tr>
         <td>
           <div class="gallery">
-            <a href="">
-              <img
-                src="https://c.static-nike.com/a/images/amgzdlltanphadzrc2ii/air-jordan-xvi-og-black-varsity-red-cdp.png"
-                alt="Retro 16s"
-                width="600"
-                height="400"
-              />
-            </a>
+            <img
+              src="https://c.static-nike.com/a/images/amgzdlltanphadzrc2ii/air-jordan-xvi-og-black-varsity-red-cdp.png"
+              alt="Retro 16s"
+              width="600"
+              height="400"
+              onclick="big(this)"
+            />
+
             <div class="desc">
               <b>Model: </b>Retro 16s<br /><b>Release Year: </b>2001
             </div>
@@ -315,14 +315,14 @@
         </td>
         <td>
           <div class="gallery">
-            <a href="">
-              <img
-                src="https://c.static-nike.com/a/images/mmxsevtug1sfmhevvatx/air-jordan-xvii-og-white-college-blue-black-home.png"
-                alt="Retro 17s"
-                width="600"
-                height="400"
-              />
-            </a>
+            <img
+              src="https://c.static-nike.com/a/images/mmxsevtug1sfmhevvatx/air-jordan-xvii-og-white-college-blue-black-home.png"
+              alt="Retro 17s"
+              width="600"
+              height="400"
+              onclick="big(this)"
+            />
+
             <div class="desc">
               <b>Model: </b>Retro 17s<br /><b>Release Year: </b>2002
             </div>
@@ -330,14 +330,14 @@
         </td>
         <td>
           <div class="gallery">
-            <a href="">
-              <img
-                src="https://c.static-nike.com/a/images/xiihwwxzjght5yreyyht/air-jordan-xviii-og-black-sport-royal-black-royal.png"
-                alt="Retro 18s"
-                width="600"
-                height="400"
-              />
-            </a>
+            <img
+              src="https://c.static-nike.com/a/images/xiihwwxzjght5yreyyht/air-jordan-xviii-og-black-sport-royal-black-royal.png"
+              alt="Retro 18s"
+              width="600"
+              height="400"
+              onclick="big(this)"
+            />
+
             <div class="desc">
               <b>Model: </b>Retro 18s<br /><b>Release Year: </b>2003
             </div>
@@ -347,14 +347,14 @@
       <tr>
         <td>
           <div class="gallery">
-            <a href="">
-              <img
-                src="https://c.static-nike.com/a/images/xvd5u6e2oqslser3nqq1/air-jordan-xix-og-black-chrome-varsity-red-midwest.png"
-                alt="Retro 19s"
-                width="600"
-                height="400"
-              />
-            </a>
+            <img
+              src="https://c.static-nike.com/a/images/xvd5u6e2oqslser3nqq1/air-jordan-xix-og-black-chrome-varsity-red-midwest.png"
+              alt="Retro 19s"
+              width="600"
+              height="400"
+              onclick="big(this)"
+            />
+
             <div class="desc">
               <b>Model: </b>Retro 19s<br /><b>Release Year: </b>2004
             </div>
@@ -362,14 +362,14 @@
         </td>
         <td>
           <div class="gallery">
-            <a href="">
-              <img
-                src="https://c.static-nike.com/a/images/ietzrmq9olkhtmass81w/air-jordan-xx-og-white-black-varsity-red-quickstrike.png"
-                alt="Retro 20s"
-                width="600"
-                height="400"
-              />
-            </a>
+            <img
+              src="https://c.static-nike.com/a/images/ietzrmq9olkhtmass81w/air-jordan-xx-og-white-black-varsity-red-quickstrike.png"
+              alt="Retro 20s"
+              width="600"
+              height="400"
+              onclick="big(this)"
+            />
+
             <div class="desc">
               <b>Model: </b>Retro 20s<br /><b>Release Year: </b>2005
             </div>
@@ -377,14 +377,14 @@
         </td>
         <td>
           <div class="gallery">
-            <a href="">
-              <img
-                src="https://c.static-nike.com/a/images/nkmzjvsl4slr3oybdjpf/air-jordan-xxi-og-white-varsity-red-metallic-silver-white-red.png"
-                alt="Retro 21s"
-                width="600"
-                height="400"
-              />
-            </a>
+            <img
+              src="https://c.static-nike.com/a/images/nkmzjvsl4slr3oybdjpf/air-jordan-xxi-og-white-varsity-red-metallic-silver-white-red.png"
+              alt="Retro 21s"
+              width="600"
+              height="400"
+              onclick="big(this)"
+            />
+
             <div class="desc">
               <b>Model: </b>Retro 21s<br /><b>Release Year: </b>2006
             </div>
@@ -394,14 +394,14 @@
       <tr>
         <td>
           <div class="gallery">
-            <a href="">
-              <img
-                src="https://c.static-nike.com/a/images/mxt3fhnxnmxy3efzicbg/air-jordan-xx2-og-white-metallic-silver-varsity-red-white-red.png"
-                alt="Retro 22s"
-                width="600"
-                height="400"
-              />
-            </a>
+            <img
+              src="https://c.static-nike.com/a/images/mxt3fhnxnmxy3efzicbg/air-jordan-xx2-og-white-metallic-silver-varsity-red-white-red.png"
+              alt="Retro 22s"
+              width="600"
+              height="400"
+              onclick="big(this)"
+            />
+
             <div class="desc">
               <b>Model: </b>Retro 22s<br /><b>Release Year: </b>2007
             </div>
@@ -409,14 +409,14 @@
         </td>
         <td>
           <div class="gallery">
-            <a href="">
-              <img
-                src="https://c.static-nike.com/a/images/pd3vs2johhfwb22lcpi3/air-jordan-xx3-og-black-varsity-red-stealth-black-red.png"
-                alt="Retro 23s"
-                width="600"
-                height="400"
-              />
-            </a>
+            <img
+              src="https://c.static-nike.com/a/images/pd3vs2johhfwb22lcpi3/air-jordan-xx3-og-black-varsity-red-stealth-black-red.png"
+              alt="Retro 23s"
+              width="600"
+              height="400"
+              onclick="big(this)"
+            />
+
             <div class="desc">
               <b>Model: </b>Retro 23s<br /><b>Release Year: </b>2008
             </div>
@@ -424,14 +424,14 @@
         </td>
         <td>
           <div class="gallery">
-            <a href="">
-              <img
-                src="https://c.static-nike.com/a/images/sxbfrcxcvak5vx1refrn/air-jordan-2009-og-white-metallic-silver-white-silver.png"
-                alt="2009"
-                width="600"
-                height="400"
-              />
-            </a>
+            <img
+              src="https://c.static-nike.com/a/images/sxbfrcxcvak5vx1refrn/air-jordan-2009-og-white-metallic-silver-white-silver.png"
+              alt="2009"
+              width="600"
+              height="400"
+              onclick="big(this)"
+            />
+
             <div class="desc">
               <b>Model: </b>2009<br /><b>Release Year: </b>2009
             </div>
@@ -441,14 +441,14 @@
       <tr>
         <td>
           <div class="gallery">
-            <a href="">
-              <img
-                src="https://c.static-nike.com/a/images/hffrhldw89t9sxl0octu/air-jordan-2010-og-black-varsity-red-white-bred.png"
-                alt="2010"
-                width="600"
-                height="400"
-              />
-            </a>
+            <img
+              src="https://c.static-nike.com/a/images/hffrhldw89t9sxl0octu/air-jordan-2010-og-black-varsity-red-white-bred.png"
+              alt="2010"
+              width="600"
+              height="400"
+              onclick="big(this)"
+            />
+
             <div class="desc">
               <b>Model: </b>2010<br /><b>Release Year: </b>2010
             </div>
@@ -456,14 +456,14 @@
         </td>
         <td>
           <div class="gallery">
-            <a href="">
-              <img
-                src="https://c.static-nike.com/a/images/hh1xekvqgy9sphkvo8hw/air-jordan-2011-og-white-black-anthracite-white-black.png"
-                alt="2011"
-                width="600"
-                height="400"
-              />
-            </a>
+            <img
+              src="https://c.static-nike.com/a/images/hh1xekvqgy9sphkvo8hw/air-jordan-2011-og-white-black-anthracite-white-black.png"
+              alt="2011"
+              width="600"
+              height="400"
+              onclick="big(this)"
+            />
+
             <div class="desc">
               <b>Model: </b>2011<br /><b>Release Year: </b>2011
             </div>
@@ -471,14 +471,14 @@
         </td>
         <td>
           <div class="gallery">
-            <a href="">
-              <img
-                src="https://c.static-nike.com/a/images/r8vkse57qnzm8wbbkofr/air-jordan-2012-og-black-white-tinker-hatfield.png"
-                alt="2012"
-                width="600"
-                height="400"
-              />
-            </a>
+            <img
+              src="https://c.static-nike.com/a/images/r8vkse57qnzm8wbbkofr/air-jordan-2012-og-black-white-tinker-hatfield.png"
+              alt="2012"
+              width="600"
+              height="400"
+              onclick="big(this)"
+            />
+
             <div class="desc">
               <b>Model: </b>2012<br /><b>Release Year: </b>2012
             </div>
@@ -488,14 +488,14 @@
       <tr>
         <td>
           <div class="gallery">
-            <a href="">
-              <img
-                src="https://c.static-nike.com/a/images/ojc95raltbmxtqhrr3yt/gym-red-white.png"
-                alt="Retro 28s"
-                width="600"
-                height="400"
-              />
-            </a>
+            <img
+              src="https://c.static-nike.com/a/images/ojc95raltbmxtqhrr3yt/gym-red-white.png"
+              alt="Retro 28s"
+              width="600"
+              height="400"
+              onclick="big(this)"
+            />
+
             <div class="desc">
               <b>Model: </b>Retro 28s<br /><b>Release Year: </b>2013
             </div>
@@ -503,14 +503,14 @@
         </td>
         <td>
           <div class="gallery">
-            <a href="">
-              <img
-                src="https://c.static-nike.com/a/images/u2erhicgsuigmldbinii/air-jordan-xx9-og-black-white-gym-red-gym-red.png"
-                alt="Retro 29s"
-                width="600"
-                height="400"
-              />
-            </a>
+            <img
+              src="https://c.static-nike.com/a/images/u2erhicgsuigmldbinii/air-jordan-xx9-og-black-white-gym-red-gym-red.png"
+              alt="Retro 29s"
+              width="600"
+              height="400"
+              onclick="big(this)"
+            />
+
             <div class="desc">
               <b>Model: </b>Retro 29s<br /><b>Release Year: </b>2014
             </div>
@@ -518,14 +518,14 @@
         </td>
         <td>
           <div class="gallery">
-            <a href="">
-              <img
-                src="https://c.static-nike.com/a/images/zjabrabgfzpmfxf8v8wl/white-black-wolf-grey.png"
-                alt="Retro 30s"
-                width="600"
-                height="400"
-              />
-            </a>
+            <img
+              src="https://c.static-nike.com/a/images/zjabrabgfzpmfxf8v8wl/white-black-wolf-grey.png"
+              alt="Retro 30s"
+              width="600"
+              height="400"
+              onclick="big(this)"
+            />
+
             <div class="desc">
               <b>Model: </b>Retro 30s<br /><b>Release Year: </b>2016
             </div>
@@ -535,14 +535,14 @@
       <tr>
         <td>
           <div class="gallery">
-            <a href="">
-              <img
-                src="https://c.static-nike.com/a/images/mp7qdkgg7rf2ng91obrz/black-university-red-white.png"
-                alt="Retro 31s"
-                width="600"
-                height="400"
-              />
-            </a>
+            <img
+              src="https://c.static-nike.com/a/images/mp7qdkgg7rf2ng91obrz/black-university-red-white.png"
+              alt="Retro 31s"
+              width="600"
+              height="400"
+              onclick="big(this)"
+            />
+
             <div class="desc">
               <b>Model: </b>Retro 31s<br /><b>Release Year: </b>2016
             </div>
@@ -550,14 +550,14 @@
         </td>
         <td>
           <div class="gallery">
-            <a href="">
-              <img
-                src="https://c.static-nike.com/a/images/teyc3mywkof3inhqhsvm/black-university-red.png"
-                alt="Retro 32s"
-                width="600"
-                height="400"
-              />
-            </a>
+            <img
+              src="https://c.static-nike.com/a/images/teyc3mywkof3inhqhsvm/black-university-red.png"
+              alt="Retro 32s"
+              width="600"
+              height="400"
+              onclick="big(this)"
+            />
+
             <div class="desc">
               <b>Model: </b>Retro 32s<br /><b>Release Year: </b>2017
             </div>
@@ -565,14 +565,14 @@
         </td>
         <td>
           <div class="gallery">
-            <a href="">
-              <img
-                src="https://c.static-nike.com/a/images/umvf2simqsecihqaxwn5/future-flight.png"
-                alt="Retro 33s"
-                width="600"
-                height="400"
-              />
-            </a>
+            <img
+              src="https://c.static-nike.com/a/images/umvf2simqsecihqaxwn5/future-flight.png"
+              alt="Retro 33s"
+              width="600"
+              height="400"
+              onclick="big(this)"
+            />
+
             <div class="desc">
               <b>Model: </b>Retro 33s<br /><b>Release Year: </b>2018
             </div>
@@ -582,14 +582,14 @@
       <tr>
         <td>
           <div class="gallery">
-            <a href="">
-              <img
-                src="https://c.static-nike.com/a/images/xjffnmivxfofbqfs8pt4/white-university-red-black.png"
-                alt="Retro 34s"
-                width="600"
-                height="400"
-              />
-            </a>
+            <img
+              src="https://c.static-nike.com/a/images/xjffnmivxfofbqfs8pt4/white-university-red-black.png"
+              alt="Retro 34s"
+              width="600"
+              height="400"
+              onclick="big(this)"
+            />
+
             <div class="desc">
               <b>Model: </b>Retro 34s<br /><b>Release Year: </b>2019
             </div>
@@ -609,5 +609,17 @@
         <a href="credits.html">Credits</a>
       </nav>
     </footer>
+    <script>
+      function big(clip) {
+        const head = document.getElementById("focus");
+        const name = document.querySelector("h1");
+        const color = ["#CE1141", "#4B9CD3","white","#a6a7a9"]
+        head.src = clip.src;
+        name.innerHTML = clip.alt;
+        r1 = Math.floor(Math.random()*color.length)
+        c1 = color[r1]
+        name.style.color = c1
+      }
+    </script>
   </body>
 </html>
