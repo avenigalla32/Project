@@ -48,13 +48,17 @@ a {
 .jordan {
   margin-top: 60px;
   width: 100%;
+  transition: 3s;
+  line-height: 40px;
 }
 .jordan-text {
   position: absolute;
   font-size: xx-large;
   color: white;
-  margin-top: 175px;
+  margin-top: 15px;
   margin-left: 600px;
+  transition: 3s;
+  line-height: 40px;
 }
 /* header */
 h1 {
@@ -66,17 +70,16 @@ h1 {
 /* shoe gallery */
 div.gallery {
   margin: 5px;
-  float: left;
   width: 477px;
-}
-
-div.gallery:hover {
-  opacity: 0.9;
 }
 
 div.gallery img {
   width: 100%;
   height: auto;
+}
+
+div.gallery:hover{
+  opacity: 85%;
 }
 
 div.desc {

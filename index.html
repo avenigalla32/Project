@@ -613,13 +613,33 @@
       function big(clip) {
         const head = document.getElementById("focus");
         const name = document.querySelector("h1");
-        const color = ["#CE1141", "#4B9CD3","white","#a6a7a9"]
+        const color = ["#CE1141", "#4B9CD3", "white", "#a6a7a9"];
         head.src = clip.src;
         name.innerHTML = clip.alt;
-        r1 = Math.floor(Math.random()*color.length)
-        c1 = color[r1]
-        name.style.color = c1
+        r1 = Math.floor(Math.random() * color.length);
+        c1 = color[r1];
+        name.style.color = c1;
       }
+
+      window.onload = function load() {
+        let text = document.getElementById("text");
+        text.style.marginTop = "175px";
+      }
+
+      function enlarge(){
+        const top = document.getElementById("jordanPic");
+        top.src = "images/wide2.png"
+      }
+      
+      document.getElementById("jordanPic").onmouseover = enlarge
+
+      function shrink(){
+        const top = document.getElementById("jordanPic");
+        top.src = "images/wide.jpg"
+      }
+      
+      document.getElementById("jordanPic").onmouseout = shrink
+
     </script>
   </body>
 </html>

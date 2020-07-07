@@ -62,7 +62,7 @@
           class="mySlides"
           src="https://c.static-nike.com/a/images/fljjixecrgjsdowxg4ud/air-jordan-i-og-white-dark-powder-blue-unc.png"
         />
- 
+
         <button
           class="w3-button w3-black w3-display-left"
           onclick="plusDivs(-1)"
@@ -108,39 +108,42 @@
           <td>
             <div class="gallery">
               <img
-                src="https://c.static-nike.com/a/images/cctkgherduwfbwrjiwwt/air-jordan-i-og-black-red.png"
+                src="images1/bred1.png"
                 alt="Retro 1s"
                 width="600"
                 height="400"
+                id="left"
               />
               <div class="desc">
-                <b>Model: </b>Retro 1s<br /><b>Release Year: </b>1985
+                <b>Retro 1: </b> Bred
               </div>
             </div>
           </td>
           <td>
             <div class="gallery">
               <img
-                src="https://c.static-nike.com/a/images/iq4eyx7lnjcmzcgfi3p8/white-black-red.png"
+                src="images1/redBlack.png"
                 alt="Retro 2s"
                 width="600"
                 height="400"
+                id="middle"
               />
               <div class="desc">
-                <b>Model: </b>Retro 2s<br /><b>Release Year: </b>1986
+                <b>Retro 1: </b>Black Toe
               </div>
             </div>
           </td>
           <td>
             <div class="gallery">
               <img
-                src="https://c.static-nike.com/a/images/fljjixecrgjsdowxg4ud/air-jordan-i-og-white-dark-powder-blue-unc.png"
+                src="images1/blue.png"
                 alt="Retro 3s"
                 width="600"
                 height="400"
+                id="right"
               />
               <div class="desc">
-                <b>Model: </b>Retro 3s<br /><b>Release Year: </b>1988
+                <b>Retro 1: </b>UNC
               </div>
             </div>
           </td>
@@ -258,5 +261,45 @@
         <a href="credits.html">Credits</a>
       </nav>
     </footer>
+    <script>
+      
+      function enlarge(imageId) {
+        let x = document.getElementById(imageId);
+        let w = x.width;
+        w = w * 1.5;
+        x.width = w;
+        // console.log("Done!");
+      }
+
+      document.getElementById("left").onmouseover = function () {
+        enlarge("left");
+      };
+
+      document.getElementById("middle").onmouseover = function () {
+        enlarge("middle");
+      }
+
+      document.getElementById("right").onmouseover = function () {
+        enlarge("right");
+      }
+
+      function shrink(imageId) {
+        let x = document.getElementById(imageId);
+        let w = x.width;
+        w = w/1.5;
+        x.width = w;
+      }
+      document.getElementById("left").onmouseout = function () {
+          shrink("left");
+      }
+
+      document.getElementById("middle").onmouseout = function () {
+        shrink("middle");
+      }
+
+      document.getElementById("right").onmouseout = function () {
+        shrink("right");
+      }
+    </script>
   </body>
 </html>
